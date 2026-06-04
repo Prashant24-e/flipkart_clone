@@ -1,0 +1,75 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.main{
+    padding: 20px;
+    background-color:aliceblue ;
+    height: 113vh;
+}
+.container{
+    background-color: white;
+    border-radius: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between ;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+
+}
+.b1{
+    background-color: blue;
+    padding: 10px;
+    border: 0px;
+    border-radius:10px;
+    margin-top:10px;
+    color: white
+    ;
+}
+.header{
+    align-items: center;
+}
+
+.search{
+    display : flexbox;
+    text-align: center;
+    align-items: center;
+    background-image:url(https://images.imagerenderer.com/images/artworkimages/mediumlarge/2/calm-waters-of-north-atlantic-ocean-at-holger-leue.jpg);
+    background-size: cover;
+    padding:300px ;
+
+}
+.search-bar{
+    display: flex;
+    justify-content:center;
+    border-radius:5px;
+}
+input{
+    padding: 10px;
+    border: 0ch;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: blue;
+}
+.searching{
+    border:0px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+.about{
+    display :flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.box h1{
+    color: rgb(226, 2, 2);
+}
